@@ -36,30 +36,6 @@ namespace PokePlayer_Library.Models {
 
 			// Add the chosen starter pokemon
 			AddPokemon(starter);
-			Random r = new Random();
-			AddPokemon(new Pokemon.Pokemon(r.Next(1, 700), 30));
-			AddPokemon(new Pokemon.Pokemon(r.Next(1, 700), 30));
-			AddPokemon(new Pokemon.Pokemon(r.Next(1, 700), 30));
-			AddPokemon(new Pokemon.Pokemon(r.Next(1, 700), 30));
-			AddPokemon(new Pokemon.Pokemon(r.Next(1, 700), 30));
-			AddPokemon(new Pokemon.Pokemon(r.Next(1, 700), 30));
-			AddPokemon(new Pokemon.Pokemon(r.Next(1, 700), 30));
-			AddPokemon(new Pokemon.Pokemon(r.Next(1, 700), 30));
-			AddPokemon(new Pokemon.Pokemon(r.Next(1, 700), 30));
-			AddPokemon(new Pokemon.Pokemon(r.Next(1, 700), 30));
-			AddPokemon(new Pokemon.Pokemon(r.Next(1, 700), 30));
-			AddPokemon(new Pokemon.Pokemon(r.Next(1, 700), 30));
-			AddPokemon(new Pokemon.Pokemon(r.Next(1, 700), 30));
-			AddPokemon(new Pokemon.Pokemon(r.Next(1, 700), 30));
-			AddPokemon(new Pokemon.Pokemon(r.Next(1, 700), 30));
-			AddPokemon(new Pokemon.Pokemon(r.Next(1, 700), 30));
-			AddPokemon(new Pokemon.Pokemon(r.Next(1, 700), 30));
-			AddPokemon(new Pokemon.Pokemon(r.Next(1, 700), 30));
-			AddPokemon(new Pokemon.Pokemon(r.Next(1, 700), 30));
-			AddPokemon(new Pokemon.Pokemon(r.Next(1, 700), 30));
-			AddPokemon(new Pokemon.Pokemon(r.Next(1, 700), 30));
-			AddPokemon(new Pokemon.Pokemon(r.Next(1, 700), 30));
-			AddPokemon(new Pokemon.Pokemon(r.Next(1, 700), 30));
 
 			// Insert the trainer in the database
 			trainerRepository.InsertTrainer(this);
